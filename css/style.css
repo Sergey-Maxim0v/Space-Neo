@@ -38,3 +38,38 @@ body{
     background: #F1F1F1;
     font-family: "Open Sans";
 }
+@font-face {
+    font-family: "Anton";
+    font-weight: 400;
+    src: url(../fonts/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 600;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 700;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 800;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    font-weight: 300;
+    src: url(../fonts/OpenSansCondensed-Light.ttf);
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    font-weight: 700;
+    src: url(../fonts/OpenSansCondensed-Bold.ttf);
+}
