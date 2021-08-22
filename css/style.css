@@ -36,7 +36,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 body{
     background: #F1F1F1;
-    font-family: "Open Sans";
 }
 @font-face {
     font-family: "Anton";
@@ -72,4 +71,82 @@ body{
     font-family: "Open Sans Condensed";
     font-weight: 700;
     src: url(../fonts/OpenSansCondensed-Bold.ttf);
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.blockTop{
+    height: 733px;
+}
+.blockMission5{
+    height: 608px;
+}
+.blockInvolved{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blockNews{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blockFaq{
+    display: flex;
+    flex-direction: column;
+
+}
+.blockFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-bottom: #FF9568 6px solid;
+    padding: 30px 16px;
+}
+.footerLogo{
+    height: 30px;
+    margin: 20px 0 0 0;
+}
+.footerLogo a{
+    display: block;
+    width: 152px;
+    height: 12px;
+    background-image: url(../img/logo-night.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footerLinks a{
+    display: block;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    height: 30px;
+}
+.footerCopyright{
+    height: 30px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    color: #000000;
 }
