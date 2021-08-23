@@ -1,0 +1,4 @@
+.blockFaq{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,4 @@
+.blockNews{
+    display: flex;
+    flex-wrap: wrap;
+}

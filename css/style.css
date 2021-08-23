@@ -73,29 +73,12 @@ body{
     src: url(../fonts/OpenSansCondensed-Bold.ttf);
 }
 .page{
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: 100%;
     position: relative;
     margin: 0 auto;
 }
-.blockTop{
-    height: 733px;
-}
-.blockMission5{
-    height: 608px;
-}
-.blockInvolved{
-    display: flex;
-    flex-wrap: wrap;
-}
-.blockNews{
-    display: flex;
-    flex-wrap: wrap;
-}
-.blockFaq{
-    display: flex;
-    flex-direction: column;
 
-}
+
+
+
