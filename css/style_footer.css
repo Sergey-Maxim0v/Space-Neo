@@ -1,111 +1,130 @@
 .blockFooter{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
     background: #FFFFFF;
     border-bottom: #FF9568 6px solid;
-    padding: 30px 16px;
     height: auto;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (max-width: 1024px) {
     .blockFooter{
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: #FFFFFF;
+        border-bottom: #FF9568 6px solid;
+        padding: 30px 16px;
+        height: auto;
     }
 }
 .footerLogo{
+    margin: 0 120px;
     height: 30px;
-    margin: 20px 0 0 0;
+
 }
-@media screen and (min-width: 601px) {
+@media (max-width: 1024px) {
     .footerLogo{
         margin: 20px 0 10px 0;
     }
 }
-@media screen and (min-width: 1025px) {
+@media (max-width: 600px) {
     .footerLogo{
-        margin: 20px 0 10px 0;
-    }
-}
-@media screen and (min-width: 1025px) {
-    .footerLogo{
-        margin: 0 120px;
+        margin: 20px 0 0 0;
     }
 }
 .footerLogo a{
     display: block;
-    width: 152px;
-    height: 12px;
+    width: 220px;
+    height: 17px;
     background-image: url(../img/logo-night.svg);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-@media screen and (min-width: 601px) {
+@media (max-width: 1024px) {
     .footerLogo a{
         width: 220px;
         height: 17px;
     }
 }
-@media screen and (min-width: 1025px) {
+@media (max-width: 600px) {
     .footerLogo a{
-        width: 220px;
-        height: 17px;
+        width: 152px;
+        height: 12px;
     }
 }
 .footerLinks{
+    margin: 10px 0 10px 0;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
 }
-@media screen and (min-width: 601px) {
+@media (max-width: 1024px) {
     .footerLinks{
-        margin: 10px 0 10px 0;
-        flex-direction: row;
-        align-items: center;
         justify-content: flex-start;
     }
 }
-@media screen and (min-width: 1025px) {
+@media (max-width: 600px) {
     .footerLinks{
-        margin: 10px 0 10px 0;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
     }
 }
 .footerLinks a{
+    margin: 10px 2%;
     display: block;
     height: 30px;
     font-family: "Open Sans Condensed";
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 25px;
     letter-spacing: 0.1em;
     color: #000000;
 
 }
-@media screen and (min-width: 601px) {
+@media (max-width: 1024px) {
     .footerLinks a{
         margin: 0 3.8% 0 0;
         font-size: 18px;
         line-height: 25px;
     }
 }
-@media screen and (min-width: 1025px) {
+@media (max-width: 600px) {
     .footerLinks a{
-        margin: 10px 2%;
+        font-size: 14px;
+        line-height: 19px;
     }
 }
 .footerCopyright{
+    height: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 100px 0 50px;
+    white-space: nowrap;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+@media (max-width: 1024px) {
+    .footerCopyright{
+        margin: 10px 0 0px 0;
+        height: 30px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+@media (max-width: 600px) {
+    .footerCopyright{
     height: 30px;
     font-family: "Open Sans Condensed";
     font-style: normal;
@@ -114,21 +133,5 @@
     line-height: 19px;
     letter-spacing: 0.1em;
     color: #000000;
-}
-@media screen and (min-width: 601px) {
-    .footerCopyright{
-        margin: 10px 0 0px 0;
-        height: 30px;
-        font-size: 18px;
-        line-height: 25px;
-    }
-}
-@media screen and (min-width: 1025px) {
-    .footerCopyright{
-        height: 30px;
-        font-size: 18px;
-        line-height: 25px;
-        margin: 0 100px 0 50px;
-        white-space: nowrap;
     }
 }
