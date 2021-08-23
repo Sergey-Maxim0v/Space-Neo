@@ -25,13 +25,13 @@
     background-size: 100% 100%;
 }
 @media (max-width: 1024px) {
-    .footerLogo a{
+    .navLogo a{
         width: 220px;
         height: 17px;
     }
 }
 @media (max-width: 600px) {
-    .footerLogo a{
+    .navLogo a{
         width: 152px;
         height: 12px;
     }
@@ -42,7 +42,6 @@
     justify-content: flex-end;
 }
 .navLinks a{
-
     display: block;
     margin: 0 3%;
     font-family: "Open Sans Condensed";
@@ -54,4 +53,26 @@
     letter-spacing: 0.1em;
     color: #FFFFFF;
     white-space: nowrap;
+}
+@media (max-width: 1024px) {
+    .navLinks a{
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+    }
+}
+.navLinks button{
+    width: 0px;
+    height: 0px;
+    background-image: url(../img/hamburger.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+@media (max-width: 1024px) {
+    .navLinks button{
+        width: 32px;
+        height: 17px;
+        margin: 0 5%;
+    }
 }
