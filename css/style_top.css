@@ -19,7 +19,6 @@
 }
 @media (max-width: 600px) {
     .blockTop{
-        background-image: url(../img/rocket-1.png);
         background-size: auto 100%;
         background-position: 50% 50%;
     }
