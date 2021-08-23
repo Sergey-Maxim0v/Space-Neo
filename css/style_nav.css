@@ -12,6 +12,15 @@
     align-items: center;
     padding: 22px 0;
 }
+@media (max-width: 600px) {
+    .nav{
+        left: 0;
+        right: 0;
+        height: 56px;
+        margin: 24px 0;
+        width: 100%;
+    }
+}
 .navLogo{
     margin: 0 3%;
 }
@@ -64,6 +73,7 @@
 .navLinks button{
     width: 0px;
     height: 0px;
+    background-color: rgba(0, 0, 0, 0);
     background-image: url(../img/hamburger.svg);
     background-position: 0 0;
     background-repeat: no-repeat;
