@@ -8,6 +8,16 @@
     align-items: center;
     flex-wrap: wrap;
 }
+@media (max-width: 1024px) {
+    .blockNews{
+        height: 200vh;
+    }
+}
+@media (max-width: 600px) {
+    .blockNews{
+        height: 350vh;
+    }
+}
 .new{
     width: 26vw;
     height: 60vh;
@@ -15,6 +25,18 @@
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
     display: flex;
     flex-direction: column;
+}
+@media (max-width: 1024px) {
+    .new{
+        width: 40vw;
+        height: 80vh;
+    }
+}
+@media (max-width: 600px) {
+    .new{
+        width: 90vw;
+        height: 90vh;
+    }
 }
 .newsImgblock{
     width: 100%;
@@ -28,17 +50,32 @@
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
+@media (max-width: 1024px) {
+    .imgnew1{
+        background-image: url(../img/block-1.png);
+    }
+}
 .imgnew2{
     background-image: url(../img/block-2@2x.png);
     background-position: 0 70%;
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
+@media (max-width: 1024px) {
+    .imgnew2{
+        background-image: url(../img/block-2.png);
+    }
+}
 .imgnew3{
     background-image: url(../img/block-3@2x.png);
     background-position: 0 70%;
     background-repeat: no-repeat;
     background-size: 100% auto;
+}
+@media (max-width: 1024px) {
+    .imgnew3{
+        background-image: url(../img/block-3.png);
+    }
 }
 .newsDate{
     position: absolute;
@@ -103,4 +140,37 @@
     line-height: 25px;
     letter-spacing: 0.07em;
     color: #313131;
+}
+@media (max-width: 1024px) {
+    .blockNews button{
+        width: 40vw;
+    }
+    .newsButton{
+        width: 40vw;
+        height: 80vh;
+        background: linear-gradient(180deg, rgba(162, 162, 162, 0.016) 0%, rgba(221, 221, 221, 0.2) 100%);
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 600px) {
+    .newsButton{
+        width: auto;
+        height: auto;
+        background: ;
+        border: 0px solid #C4C4C4;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20% 0;
+    }
+    .blockNews button{
+        width: 90vw;
+        font-size: 14px;
+        line-height: 19px;
+    }
 }
