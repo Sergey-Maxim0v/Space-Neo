@@ -13,14 +13,14 @@
     .blockTop{
         max-height: 100vh;
         background-image: url(../img/rocket-1.png);
-        background-size: auto 130vh;
-        background-position: 35% 50%;
+        background-size: 130vw 130vh;
+        background-position: 0% 50%;
     }
 }
 @media (max-width: 600px) {
     .blockTop{
-        background-size: auto 100%;
-        background-position: 50% 50%;
+        background-size: auto 130vh;
+        background-position: 45% 50%;
     }
 }
 .topContent{

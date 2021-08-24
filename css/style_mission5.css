@@ -13,14 +13,14 @@
     .blockMission5{
         max-height: 100vh;
         background-image: url(../img/rocket-2.png);
-        background-size: auto 100vh;
-        background-position: 35% 0%;
+        background-size: 130vw 130vh;
+        background-position: 35% -0%;
     }
 }
 @media (max-width: 600px) {
     .blockMission5{
         background-size: auto 100%;
-        background-position: 50% 0%;
+        background-position: 55% 0%;
     }
 }
 .mission5Content{
