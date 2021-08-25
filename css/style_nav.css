@@ -12,15 +12,6 @@ div.nav{
     align-items: center;
     padding: 22px 0;
 }
-@media (max-width: 600px) {
-    .nav{
-        left: 0;
-        right: 0;
-        height: 56px;
-        margin: 24px 0;
-        width: 100%;
-    }
-}
 .navLogo{
     margin: 0 3%;
 }
@@ -32,18 +23,6 @@ div.nav{
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
-@media (max-width: 1024px) {
-    .navLogo a{
-        width: 220px;
-        height: 17px;
-    }
-}
-@media (max-width: 600px) {
-    .navLogo a{
-        width: 152px;
-        height: 12px;
-    }
 }
 .navLinks{
     width: 100%;
@@ -63,13 +42,6 @@ div.nav{
     color: #FFFFFF;
     white-space: nowrap;
 }
-@media (max-width: 1024px) {
-    .navLinks a{
-        width: 0px;
-        height: 0px;
-        font-size: 0px;
-    }
-}
 .navLinks button{
     width: 0px;
     height: 0px;
@@ -78,11 +50,4 @@ div.nav{
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
-@media (max-width: 1024px) {
-    .navLinks button{
-        width: 32px;
-        height: 17px;
-        margin: 0 5%;
-    }
 }

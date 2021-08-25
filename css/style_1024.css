@@ -1,0 +1,142 @@
+@media (max-width: 1024px) {
+    /*___nav_______*/
+    .navLogo a{
+        width: 220px;
+        height: 17px;
+    }
+    .navLinks a{
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+    }
+    .navLinks button{
+        width: 32px;
+        height: 17px;
+        margin: 0 5%;
+    }
+    /*___top_______*/
+    .blockTop{
+        max-height: 100vh;
+        background-image: url(../img/rocket-1.png);
+        background-size: 130vw 130vh;
+        background-position: 0% 50%;
+    }
+    .topContent{
+        margin: 0 0 0 3%;
+        height: 50%;
+        min-height: 400px;
+        position: relative;
+        top: 5%;
+    }
+    /*___mission5_______*/
+    .blockMission5{
+        max-height: 100vh;
+        background-image: url(../img/rocket-2.png);
+        background-size: 130vw 130vh;
+        background-position: 35% -0%;
+    }
+    .mission5Content{
+        margin: 0 0 0 3%;
+        height: 40%;
+        position: relative;
+        top: 5%;
+    }
+    /*___involved_______*/
+    .blockInvolved{
+        max-width: 100%;
+        max-height: 100vh;
+    }
+    .involvedContein{
+        width: 100vw;
+        height: 100vh;
+        min-height: 100vh;
+        background-image: url(../img/rocket-3.png);
+        background-position: 0 10%;
+        background-repeat: no-repeat;
+        background-size: 150vw auto;
+    }
+    .ivoledLaunch{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        max-width: 100%;
+        font-size: 290px;
+        line-height: 425px;
+    }
+    .ivolvedContent{
+        width: 40%;
+        max-width: 500px;
+        height: 80vh;
+        max-height: auto;
+        min-height: 80vh;
+        padding: 3%;
+        margin: 5% 0 0 0;
+    }
+    /*___news_______*/
+    .blockNews{
+        height: 200vh;
+    }
+    .new{
+        width: 40vw;
+        height: 80vh;
+    }
+    .imgnew1{
+        background-image: url(../img/block-1.png);
+    }
+    .imgnew2{
+        background-image: url(../img/block-2.png);
+    }
+    .imgnew3{
+        background-image: url(../img/block-3.png);
+    }
+    .blockNews button{
+        width: 40vw;
+    }
+    .newsButton{
+        width: 40vw;
+        height: 80vh;
+        background: linear-gradient(180deg, rgba(162, 162, 162, 0.016) 0%, rgba(221, 221, 221, 0.2) 100%);
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*___faq_______*/
+    .faqContent{
+        margin: 0 5% 130px 5%;
+    }
+    /*___footer_______*/
+    .blockFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: #FFFFFF;
+        border-bottom: #FF9568 6px solid;
+        padding: 30px 16px;
+        height: auto;
+    }
+    .footerLogo{
+        margin: 20px 0 10px 0;
+    }
+    .footerLogo a{
+        width: 220px;
+        height: 17px;
+    }
+    .footerLinks{
+        justify-content: flex-start;
+    }
+    .footerLinks a{
+        margin: 0 3.8% 0 0;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .footerCopyright{
+        margin: 10px 0 0px 0;
+        height: 30px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

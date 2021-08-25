@@ -20,16 +20,6 @@ img{
 .faqContent{
     margin: 0 7% 140px 7%;
 }
-@media (max-width: 1024px) {
-    .faqContent{
-        margin: 0 5% 130px 5%;
-    }
-}
-@media (max-width: 600px) {
-    .faqContent{
-        margin: 0 4% 70px 4%;
-    }
-}
 .faqContent h3{
     font-family: Anton;
     font-style: normal;
@@ -47,12 +37,6 @@ img{
     line-height: 46px;
     letter-spacing: 0.1em;
     margin: 70px 0 0 0;
-}
-@media (max-width: 600px) {
-    .faqContent h4{
-        font-size: 22px;
-        line-height: 30px;
-    }
 }
 .faqContent p{
     font-family: Open Sans;

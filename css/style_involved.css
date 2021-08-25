@@ -6,23 +6,6 @@
     justify-content: center;
     align-items: center;
 }
-@media (max-width: 1024px) {
-    .blockInvolved{
-        max-width: 100%;
-        max-height: 100vh;
-    }
-}
-@media (max-width: 600px) {
-    .blockInvolved{
-        width: 100%;
-        height: 190%;
-        max-height: 200%;
-        background-image: url(../img/rocket-3.png);
-        background-repeat: no-repeat;
-        background-size: auto 120vh;
-        background-position: 2% 0;
-    }
-}
 .involvedContein{
     width: 91%;
     height: 80%;
@@ -35,27 +18,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-@media (max-width: 1024px) {
-    .involvedContein{
-        width: 100vw;
-        height: 100vh;
-        min-height: 100vh;
-        background-image: url(../img/rocket-3.png);
-        background-position: 0 10%;
-        background-repeat: no-repeat;
-        background-size: 150vw auto;
-    }
-}
-@media (max-width: 600px) {
-    .involvedContein{
-        width: 100%;
-        height: 100vh;
-        align-self: flex-end;
-        background-image: url();
-        background-repeat: no-repeat;
-        background-size: 100% 100vh;
-    }
 }
 .ivoledLaunch{
     position: absolute;
@@ -74,27 +36,6 @@
     color: #FFFFFF;
     mix-blend-mode: soft-light;
 }
-@media (max-width: 1024px) {
-    .ivoledLaunch{
-        position: absolute;
-        left: 0%;
-        right: 0%;
-        width: 100%;
-        max-width: 100%;
-        font-size: 290px;
-        line-height: 425px;
-    }
-}
-@media (max-width: 600px) {
-    .ivoledLaunch{
-        position: absolute;
-        height: 0%;
-        width: 0%;
-        max-width: 0%;
-        z-index: 1;
-        font-size: 0px;
-    }
-}
 .ivolvedContent{
     z-index: 4;
     width: 40%;
@@ -110,29 +51,6 @@
     align-items: flex-start;
     margin: 0 10%;
 }
-@media (max-width: 1024px) {
-    .ivolvedContent{
-        width: 40%;
-        max-width: 500px;
-        height: 80vh;
-        max-height: auto;
-        min-height: 80vh;
-        padding: 3%;
-        margin: 5% 0 0 0;
-    }
-
-}
-@media (max-width: 600px) {
-    .ivolvedContent{
-        width: 100%;
-        min-width: 10vw;
-        max-width: 100%;
-        height: 100vh;
-        max-height: 100vh;
-        padding: 0% 3% 0% 3%;
-        margin: 0 0 0 0;
-    }
-}
 .blockInvolved h3{
     font-family: Anton;
     font-style: normal;
@@ -141,14 +59,6 @@
     letter-spacing: -0.01em;
     color: #FFFFFF;
     white-space: nowrap;
-}
-@media (max-width: 600px) {
-    .blockInvolved h3{
-        font-size: 62px;
-        line-height: 70px;
-        white-space: wrap;
-        margin: 25% 0 0 0;
-    }
 }
 .ivolvedText p{
     font-family: Open Sans;
@@ -173,14 +83,4 @@
     line-height: 25px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
-}
-@media (max-width: 600px) {
-    .blockInvolved button{
-        width: 224px;
-        height: 68px;
-        background-color: rgba(0, 0, 0, 0);
-        font-size: 14px;
-        line-height: 19px;
-        margin: 0 0 10% 0;
-    }
 }

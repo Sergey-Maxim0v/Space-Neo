@@ -8,32 +8,10 @@
     border-bottom: #FF9568 6px solid;
     height: auto;
 }
-@media screen and (max-width: 1024px) {
-    .blockFooter{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        background: #FFFFFF;
-        border-bottom: #FF9568 6px solid;
-        padding: 30px 16px;
-        height: auto;
-    }
-}
 .footerLogo{
     margin: 0 120px;
     height: 30px;
 
-}
-@media (max-width: 1024px) {
-    .footerLogo{
-        margin: 20px 0 10px 0;
-    }
-}
-@media (max-width: 600px) {
-    .footerLogo{
-        margin: 20px 0 0 0;
-    }
 }
 .footerLogo a{
     display: block;
@@ -44,18 +22,6 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-@media (max-width: 1024px) {
-    .footerLogo a{
-        width: 220px;
-        height: 17px;
-    }
-}
-@media (max-width: 600px) {
-    .footerLogo a{
-        width: 152px;
-        height: 12px;
-    }
-}
 .footerLinks{
     margin: 10px 0 10px 0;
     display: flex;
@@ -64,18 +30,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-}
-@media (max-width: 1024px) {
-    .footerLinks{
-        justify-content: flex-start;
-    }
-}
-@media (max-width: 600px) {
-    .footerLinks{
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
 }
 .footerLinks a{
     margin: 10px 2%;
@@ -90,19 +44,6 @@
     color: #000000;
 
 }
-@media (max-width: 1024px) {
-    .footerLinks a{
-        margin: 0 3.8% 0 0;
-        font-size: 18px;
-        line-height: 25px;
-    }
-}
-@media (max-width: 600px) {
-    .footerLinks a{
-        font-size: 14px;
-        line-height: 19px;
-    }
-}
 .footerCopyright{
     height: 30px;
     font-size: 18px;
@@ -114,24 +55,4 @@
     font-weight: 300;
     letter-spacing: 0.1em;
     color: #000000;
-}
-@media (max-width: 1024px) {
-    .footerCopyright{
-        margin: 10px 0 0px 0;
-        height: 30px;
-        font-size: 18px;
-        line-height: 25px;
-    }
-}
-@media (max-width: 600px) {
-    .footerCopyright{
-    height: 30px;
-    font-family: "Open Sans Condensed";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 19px;
-    letter-spacing: 0.1em;
-    color: #000000;
-    }
 }
