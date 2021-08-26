@@ -5,13 +5,10 @@
         height: 17px;
     }
     .navLinks a{
-        width: 0px;
-        height: 0px;
-        font-size: 0px;
+        display: none;
     }
     .navLinks button{
-        width: 32px;
-        height: 17px;
+display: block;
         margin: 0 5%;
     }
     /*___top_______*/
@@ -225,12 +222,7 @@
         background-size: 100% 100vh;
     }
     .ivoledLaunch{
-        position: absolute;
-        height: 0%;
-        width: 0%;
-        max-width: 0%;
-        z-index: 1;
-        font-size: 0px;
+        display: none;
     }
     .ivolvedContent{
         width: 100%;
