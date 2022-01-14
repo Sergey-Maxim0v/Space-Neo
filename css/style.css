@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 :focus,:active{outline: none;}
-a:footer,header,aside{display: block;}
+footer,header,aside{display: block;}
 
 html,body{
     height: 100%;
